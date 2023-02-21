@@ -7,13 +7,14 @@
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a></li>
 
             </ul>
-            <div class="d-flex">
-                <a href="{{ route('shopping.cart') }}" class="btn btn-outline-dark" type="submit">
-                    <i class="bi-cart-fill me-1"></i>
-                    Cart
-                    <livewire:cart-count />
-                </a>
-            </div>
+
+        </div>
+        <div class="d-flex">
+            <a href="{{ route('shopping.cart') }}" class="btn btn-outline-dark" type="submit">
+                <i class="bi-cart-fill me-1"></i>
+                Cart
+                <livewire:cart-count />
+            </a>
         </div>
     </div>
     <div class="hidden sm:flex sm:items-center sm:ml-6">
